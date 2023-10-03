@@ -213,7 +213,7 @@ export default function Home() {
 
       <section  id="contact" className="grid grid-cols-1 mt-10">
 
-        <div className={" text-white rounded-3xl p-10 flex flex-col gap-6 bg-[url('/grad2.jpg')] bg-cover ${window.innerWidth <= 480 ? 'h-[34rem]' : 'h-[30rem]'}"}>
+        <div className={" text-white rounded-t-3xl rounded-b-none p-10 flex flex-col gap-6 bg-[url('/grad2.jpg')] bg-cover ${window.innerWidth <= 480 ? 'h-[34rem]' : 'h-[30rem]'}"}>
           <h1 className=' text-4xl font-semibold'> Want To <span className=' text-yellow-400 font-bold'>Work </span> Together? </h1>
 
           <p className='flex-1'>

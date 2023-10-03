@@ -67,7 +67,7 @@
                 GRIDFOLIO
             </span>
             </div>
-            <div className='flex gap-12 text-md text-zinc-400'>
+            <div className={`flex ${window.innerWidth <= 480 ? 'gap-2' : 'gap-12'} text-md text-zinc-400`}>
             <Link className='text-black font-medium' href='#'>
                 Home
             </Link>
