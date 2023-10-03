@@ -52,7 +52,7 @@ export default function Home() {
 
       <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4 mt-10">
 
-        <motion.div className="h-[32rem] rounded-3xl p-10 flex flex-col gap-10 bg-[url('/gradient-bg.jpg')] bg-cover"
+        <motion.div className="rounded-3xl p-10 flex flex-col gap-6 bg-[url('/gradient-bg.jpg')] bg-cover ${window.innerWidth <= 485 ? 'h-[40rem]' : 'h-[34rem]'}"
         
           initial="hidden"
           animate="visible"
@@ -213,7 +213,7 @@ export default function Home() {
 
       <section  id="contact" className="grid grid-cols-1 mt-10">
 
-        <div className="h-[26rem] text-white rounded-3xl p-10 flex flex-col gap-6 bg-[url('/grad2.jpg')] bg-cover ">
+        <div className={" text-white rounded-3xl p-10 flex flex-col gap-6 bg-[url('/grad2.jpg')] bg-cover ${window.innerWidth <= 480 ? 'h-[34rem]' : 'h-[30rem]'}"}>
           <h1 className=' text-4xl font-semibold'> Want To <span className=' text-yellow-400 font-bold'>Work </span> Together? </h1>
 
           <p className='flex-1'>
