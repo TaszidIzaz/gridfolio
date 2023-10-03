@@ -15,6 +15,19 @@ const config: Config = {
       },
     },
   },
+
+  themes: {
+    extend:{
+      colors:{
+        dribble: "#ea4c89",
+        instagram: "#EE4405F",
+        twitter: "#1DA1F2",
+        linkedin: "#0A66C2",
+      }
+    }
+
+  },
   plugins: [],
+  darkMode: "class"
 }
 export default config
