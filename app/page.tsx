@@ -70,7 +70,8 @@ export default function Home() {
             better user interactions and leave a positive impact in the world. 
         </p>
           <div className=' flex flex-col lg:flex-row items-center gap-4 justify-self-end'>
-            <button className=' bg-black border-2 border-transparent text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto hover:bg-white hover:text-black hover:border-black hover:border-2  transition-colors duration-200 ease-in-out flex justify-center items-center'>
+            <button className=' bg-black border-2 border-transparent text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto hover:bg-white hover:text-black hover:border-black hover:border-2  transition-colors duration-200 ease-in-out flex justify-center items-center'
+            onClick={() => window.location.href = 'mailto:taszid.nahi@gmail.com'}>
               Contact Me
             </button>
 
@@ -178,6 +179,26 @@ export default function Home() {
         />
 
         <Project
+          name='Vwave'
+          description='A Red Light Therapy Website Design'
+          imageUrl='/vwave.png'
+          bgColor="#E8E0CF" 
+          link="https://www.behance.net/gallery/184963965/Red-Light-Therapy-Website-Design"
+          
+        />
+
+        <Project
+          name='OpenCollab'
+          description='Open Source Collaboration Website Design'
+          imageUrl='/OSC.png'
+          bgColor="#C5CAFF" 
+          link="https://www.behance.net/gallery/184817129/Open-Source-Collaboration-Website-Showcase"
+          
+        />
+
+
+
+        <Project
           name='Space Journey'
           description='A Web Three JS Experience'
           imageUrl='/spacee.jpeg'
@@ -185,6 +206,16 @@ export default function Home() {
           dark
           link="https://github.com/TaszidIzaz/n1"
         />
+
+        <Project
+          name='IUT Mosque'
+          description='A Voxel 3D Mosque Design of IUT Mosque'
+          imageUrl='/IUT.png'
+          bgColor="#223A60" 
+          dark
+          link="https://github.com/TaszidIzaz/n1"
+        />
+
 
         <Project
           name='Atis'
@@ -221,9 +252,18 @@ export default function Home() {
           link="https://taszidizaz.github.io/magma/"
         />
 
+        <Project
+          name='Hotel-Review'
+          description='Hotel Review Service Agency Website Design'
+          imageUrl='/Hotel.png'
+          bgColor="#A5C5F9" 
+          link="https://www.behance.net/gallery/174383315/Hotel-Review-Service-Agency-Landing-Page"
+          
+        />
+
 
         
-        
+
 
       </section>
 
