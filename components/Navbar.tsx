@@ -61,7 +61,7 @@
             }, []);
 
         const getWindowWidth = () => {
-                return isClient ? window.innerWidth : undefined;
+                return isClient ? window.innerWidth : 0 ;
             };
 
 
