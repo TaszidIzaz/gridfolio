@@ -213,7 +213,7 @@ export default function Home() {
           imageUrl='/IUT.png'
           bgColor="#223A60" 
           dark
-          link="https://github.com/TaszidIzaz/n1"
+          link="https://www.behance.net/gallery/158105909/IUT-Mosque-In-Magicavoxel"
         />
 
 
