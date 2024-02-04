@@ -1,6 +1,6 @@
     import Link from 'next/link';
     import { motion } from 'framer-motion';
-    import React, { ReactNode } from 'react';
+    import React, { ReactNode, useState, useEffect } from 'react';
 
     const FirstDivAnimation = {
         hidden: {
@@ -53,6 +53,18 @@
     };
 
     const Navbar = () => {
+
+        const [isClient, setIsClient] = useState(false);
+
+        useEffect(() => {
+                setIsClient(true);
+            }, []);
+
+        const getWindowWidth = () => {
+                return isClient ? window.innerWidth : undefined;
+            };
+
+
     return (
         <motion.div
         
@@ -67,7 +79,7 @@
                 GRIDFOLIO
             </span>
             </div>
-            <div className={`flex ${window.innerWidth <= 480 ? 'gap-2' : 'gap-12'} text-md text-zinc-400`}>
+            <div className={`flex ${getWindowWidth() && getWindowWidth() <= 480 ? 'gap-2' : 'gap-12'} text-md text-zinc-400`}>
             <Link className='text-black font-medium' href='#'>
                 Home
             </Link>
