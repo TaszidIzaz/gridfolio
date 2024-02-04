@@ -179,6 +179,15 @@ export default function Home() {
         />
 
         <Project
+          name='InZyne'
+          description='InZyne Creative Agency Website Design'
+          imageUrl='/inz.png'
+          bgColor="#E5DDFF" 
+          link="https://www.behance.net/gallery/190705411/InZyne-Creative-Agency-Website-Design"
+          
+        />
+
+        <Project
           name='Vwave'
           description='A Red Light Therapy Website Design'
           imageUrl='/vwave.png'
